@@ -24,6 +24,6 @@ public class Calculator {
     }
 
     public double getSquareRoot(){
-        return 0.0;
+        return Math.sqrt(number);
     }
 }
