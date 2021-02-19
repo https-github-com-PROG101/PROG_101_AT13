@@ -8,4 +8,7 @@ public class Calculator {
         this.numberTwo = numberTwo;
     }
 
+    public int getAdd(){
+        return 0;
+    }
 }
