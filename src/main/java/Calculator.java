@@ -13,6 +13,6 @@ public class Calculator {
     }
 
     public int getSubstract(){
-        return 0;
+        return numberOne - numberTwo;
     }
 }
