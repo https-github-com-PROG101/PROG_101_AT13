@@ -6,7 +6,7 @@ import static org.junit.Assert.*;
 public class CalculatorTest {
 
     @Test
-    public void isThen_AddBetweenSixAndFour_Then() {
+    public void getAdd_AddBetweenSixAndFour_Then() {
         // prerequisites
         Calculator addTwoNumber = new Calculator(6,4);
         //Actions
@@ -17,7 +17,7 @@ public class CalculatorTest {
     }
 
     @Test
-    public void isFive_SubstractBetweenThenAndFive_Five() {
+    public void getSubstract_SubstractBetweenThenAndFive_Five() {
         // prerequisites
         Calculator substractTwoNumber = new Calculator(10,5);
         //Actions
@@ -28,7 +28,7 @@ public class CalculatorTest {
     }
 
     @Test
-    public void isTwo_SquareRootOfFour_Two() {
+    public void getSquareRoot_SquareRootOfFour_Two() {
         // prerequisites
         Calculator squareRootOfOneNumber = new Calculator(4);
         //Actions
