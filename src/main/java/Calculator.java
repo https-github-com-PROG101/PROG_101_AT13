@@ -9,6 +9,7 @@ public class Calculator {
     }
 
     public int getAdd(){
-        return 0;
+        return numberOne + numberTwo;
     }
+    
 }
