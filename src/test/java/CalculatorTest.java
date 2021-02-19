@@ -26,4 +26,15 @@ public class CalculatorTest {
         //Verification
         Assert.assertEquals(expectedValue, actualValue);
     }
+
+    @Test
+    public void getSquareRoot() {
+        // prerequisites
+        Calculator squareRootOfOneNumber = new Calculator(7);
+        //Actions
+        double actualValue = squareRootOfOneNumber.getSquareRoot();
+        double expectedValue = 2.6457513110645907;
+        //Verification
+        Assert.assertEquals(expectedValue,actualValue,0.0);
+    }
 }

@@ -1,11 +1,18 @@
+import java.text.DecimalFormat;
+
 public class Calculator {
 
     int numberOne;
     int numberTwo;
+    double number;
 
     public Calculator(int numberOne, int numberTwo) {
         this.numberOne = numberOne;
         this.numberTwo = numberTwo;
+    }
+
+    public Calculator(double number) {
+        this.number = number;
     }
 
     public int getAdd(){
@@ -15,4 +22,5 @@ public class Calculator {
     public int getSubstract(){
         return numberOne - numberTwo;
     }
+
 }
