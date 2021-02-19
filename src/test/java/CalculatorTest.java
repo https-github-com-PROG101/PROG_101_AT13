@@ -28,12 +28,12 @@ public class CalculatorTest {
     }
 
     @Test
-    public void getSquareRoot() {
+    public void isTwo_SquareRootOfFour_Two() {
         // prerequisites
-        Calculator squareRootOfOneNumber = new Calculator(7);
+        Calculator squareRootOfOneNumber = new Calculator(4);
         //Actions
         double actualValue = squareRootOfOneNumber.getSquareRoot();
-        double expectedValue = 2.6457513110645907;
+        double expectedValue = 2.0;
         //Verification
         Assert.assertEquals(expectedValue,actualValue,0.0);
     }

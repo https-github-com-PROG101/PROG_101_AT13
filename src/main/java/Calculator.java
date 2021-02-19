@@ -23,4 +23,7 @@ public class Calculator {
         return numberOne - numberTwo;
     }
 
+    public double getSquareRoot(){
+        return 0.0;
+    }
 }
