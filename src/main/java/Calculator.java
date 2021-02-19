@@ -11,5 +11,8 @@ public class Calculator {
     public int getAdd(){
         return numberOne + numberTwo;
     }
-    
+
+    public int getSubstract(){
+        return 0;
+    }
 }
