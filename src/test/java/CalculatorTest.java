@@ -16,4 +16,14 @@ public class CalculatorTest {
         Assert.assertEquals(expectedValue, actualValue);
     }
 
+    @Test
+    public void isFive_SubstractBetweenThenAndFive_Five() {
+        // prerequisites
+        Calculator substractTwoNumber = new Calculator(10,5);
+        //Actions
+        int actualValue = substractTwoNumber.getSubstract();
+        int expectedValue = 5;
+        //Verification
+        Assert.assertEquals(expectedValue, actualValue);
+    }
 }
